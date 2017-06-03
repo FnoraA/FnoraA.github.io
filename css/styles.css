@@ -1,0 +1,231 @@
+@charset "utf-8";
+@import url("Aleo_Bold/stylesheet.css");
+
+
+/* Page Elements */
+
+#wrapper {
+	padding-left: 0px; /* Padding left & right at 0px means that they will stretch the whole width of the page, with no gaps on the side */
+	padding-right: 0px;
+}
+.navbar.navbar-default {
+	height: auto;
+	padding-top: 20px;
+	margin-bottom: 0px;
+	min-height: 90px;
+	background-color: rgba(0,0,0,0.00);
+	border-radius: 0px;
+	border-width: 0px;
+}
+
+/* Navbar Styling */
+
+.navbar-brand-logo {
+	background-image: url(../images/logo2.png); /* Placing the image into the HTML directly would break / move div tags around incorrectly, using a background image instead fixes this issue and allows me to align it to the navbar text aswell */
+	width: 180px; /* Height of the logo file */
+	height: 50px; /* Width of the logo file */
+	background-repeat: no-repeat; /* Prevents the image from repeating on the x or y axis */
+	background-position: 0% 50%; /* Moves the image down by 50% as SVGs dont use the resolution that they are saved in */
+}
+.nav.navbar-nav.navbar-right li a {
+	color: rgba(0,0,0,1.00);
+}
+.product-text-img {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	color: #000000;
+	font-family: "Aleo Bold";
+	font-size: 20px;
+	text-shadow: 0 0px 25px #000000;
+	height: 0%;
+   
+}
+.product-container {
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 30px;
+}
+.blog-container {
+	background-color: #FFFFFF;
+	margin-top: 30px;
+}
+.blog-title {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 18px;
+}
+.blog-desc {
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 10px;
+	padding-bottom: 10px;
+
+}
+.blue-bg {
+	background-color: #2cabf0;
+}
+.green-bg {
+	background-color: #F2A679;
+}
+.footer-styles {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #000000;
+	font-size: 16px;
+
+}
+.footer-img {
+	margin-left: 5px;
+	margin-right: 5px;
+	float: right;
+}
+.img-border-radius {
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+
+}
+.usp-bg {
+	background-color: #233356;
+}
+.usp-container {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	display: table;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.usp-img {
+	vertical-align: middle;
+	display: table-cell;
+}
+.usp-text {
+	vertical-align: middle;
+	display: table-cell;
+	color: #FFFFFF;
+}
+.review-container {
+	text-align: center;
+	margin-top: 30px;
+	color: #FFFFFF;
+	margin-bottom: 30px;
+}
+.review-text {
+	width: 400px;
+	margin: auto;
+}
+.review-star {
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.carousel-bg {
+	background-color: #409EFF;
+}
+.test {
+	margin-top: 93px;
+}
+.footer-nav {
+	float: left;
+	margin-right: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.footer-social {
+	float: right;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	color: rgba(255,255,255,1.00);
+}
+#footer-social a:link {
+    color:#FFFFFF;
+}
+#footer-social a:visited {
+    color:#FFFFFF;
+}
+.product-img {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.product-bg {
+	margin-bottom: 30px;
+}.product-title {
+	font-size: 22px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.product-price {
+	width: 25%;
+	text-align: right;
+	float: right;
+}
+.product-desc {
+	margin-bottom: 30px;
+}
+.product-purcahse {
+	float: left;
+	margin-right: 20px;
+}
+.product-button {
+	margin-left: 20px;
+}
+
+.product-img-rec {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.navbar-sep {
+	border-bottom: 2px solid rgba(213,213,213,1.00);
+	min-height: 0px;
+}
+.products-find {
+	font-size: 22px;
+}
+.product-img-more {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.contact-map {
+	margin-top: 30px;
+}
+.contact-info {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.contact-msg {
+	width: 100%;
+	height: 120px;
+}
+.contact-txt {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: rgba(255,255,255,1.00);
+}
+.width-full {
+	width: 100%;
+}
+.about-container {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: rgba(255,255,255,1.00);
+}
+.txt-white {
+	color: rgba(255,255,255,1.00);
+}
+.txt-black {
+	color: rgba(0,0,0,1.00);
+}
+.product-container-gap {
+	margin-bottom: 30px;
+}
+.product-button-container {
+	margin-bottom: 20px;
+}
+@charset "utf-8";
+/* CSS Document */
+

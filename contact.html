@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <!-- Website Title -->
+	<title>AaronFreshwater | Contact</title>
+
+  <!-- Website Icon -->
+	<link rel="icon shortcut" type="image/png" href="Images/icon.png"/>
+
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+
+	<!-- CSS -->
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+  <!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- Font Import (Google Fonts) -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.js"></script>
+
+  <!-- Embedded CSS -->
+	<style type="text/css">
+	body { /* Changes the background colour of the entire HTML document */
+	background-colour: #FFFFF;
+	}
+    body,td,th { /* Changes the default font of the entire HTML document to Open Sans (Google Fonts) */
+	font-family: 'Open Sans', sans-serif;
+	}
+  </style>
+
+	<!-- JavaScript Contact Form Validator -->
+	<script>
+	function validateForm() {
+	    var x = document.forms["myForm"]["fname"].value;
+	    if (x == null || x == "") {
+	        alert("You must enter a name");
+	        return false;
+	    }
+	}
+	</script>
+
+</head>
+
+<body>
+
+<!-- Wrapper (Full screen width) -->
+<div class="container-fluid" id="wrapper">
+
+<!-- Navbar -->
+<div class="container-fluid navbar-sep">
+
+<nav class="navbar navbar-default container">
+
+<div class="container">
+
+<div class="navbar-header">
+
+  <button type="button" class="navbar-toggle collapsed navbar-collapsed-colour" data-toggle="collapse" data-target="#defaultNavbar1" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	</button>
+
+  <a class="navbar-brand navbar-brand-logo" href="index.html"></a>
+
+</div>
+
+<!-- Navbar Collapse (Drop down menu for mobile and tablet users depending on screen resoltuion) -->
+<div class="collapse navbar-collapse" id="defaultNavbar1">
+
+  <ul class="nav navbar-nav navbar-right">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="">Portfolio</a></li>
+    <li><a href="About.html">About Me</a></li>
+    <li><a href="">Blog</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+
+  </ul>
+
+</div>
+
+</div>
+
+</nav>
+
+</div>
+
+<!-- Page Content -->
+
+<div class="container-fluid blue-bg">
+<div class="container">
+<div class="row">
+<div class="contact-map col-lg-12">
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2423.4651340861888!2d1.720160715810332!3d52.597362879828864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47da04268ace939b%3A0xe7fc321a3f274b9c!2sGreat+Yarmouth+College!5e0!3m2!1sen!2suk!4v1496242596556"width="100%" height="400" style="border:0" allowfullscreen></iframe>
+
+</div>
+
+<div class="col-lg-6 contact-info col-sm-8 col-md-8">
+
+  <div class="contact-txt">Full Name</div>
+<form name="myForm" action="#"
+onsubmit="return validateForm()" method="post">
+<input name="fname" type="text" class="width-full">
+
+<div class="contact-txt">Email Address</div>
+  <div><input name="email" type="email" class="width-full" id="email"></div>
+  <div class="contact-txt">Message</div>
+  <div>
+    <label for="textarea">
+    </label><textarea name="textarea" class="contact-msg" id="textarea"></textarea>
+    </div>
+
+<input type="submit" value="Submit">
+</form>
+
+</div>
+
+<div class="col-lg-6 contact-info col-sm-4">
+<div class="contact-txt">
+  <p><i class="fa fa-map-marker" aria-hidden="true"></i> Great Yarmouth College</p>
+  <p> Suffolk Rd, Great Yarmouth </p>
+  <p> Norfolk NR31 0ED</p>
+</div>
+<div class="contact-txt"><i class="fa fa-phone"></i><a href="callto:#" class="contact-txt"> No.&nbsp;01632 960206</a></div>
+<div class="contact-txt"><i class="fa fa-envelope"></i><a href="mailto:name@email.com" class="contact-txt"> contact@aaronf.co.uk</a></div>
+<div class="contact-txt"><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" style="color: #FFFFFF"> Twitter</i></a></div>
+<div class="contact-txt"><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook" style="color: #FFFFFF"> Facebook</i></a></div>
+<div class="contact-txt"><a href="https://www.pinterest.com" target="_blank"><i class="fa fa-pinterest" style="color: #FFFFFF"> Pinterest</i></a></div>
+<div class="contact-txt"><a href="https://www.plus.google.com" target="_blank"><i class="fa fa-google-plus" style="color: #FFFFFF"> Google+</i></a></div>
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- Footer -->
+
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-6 col-xs-8">
+        <div class="footer-nav"><a href="Home.html" class="txt-black">Home</a></div>
+        <div class="footer-nav"><a href="Products.html" class="txt-black">Portfolio</a></div>
+        <div class="footer-nav"><a href="About.html" class="txt-black">About Me</a></div>
+        <div class="footer-nav"><a href="" class="txt-black">Blog</a></div>
+        <div class="footer-nav"><a href="Contact.html" class="txt-black">Contact</a></div>
+      </div>
+
+      <div class="col-lg-6 col-xs-4">
+        <div class="footer-social"><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" style="color: #000000"></i></a></div>
+        <div class="footer-social"><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook" style="color: #000000"></i></a></div>
+        <div class="footer-social"><a href="https://www.pinterest.com" target="_blank"><i class="fa fa-pinterest"  style="color: #000000"></i></a></div>
+        <div class="footer-social"><a href="https://www.plus.google.com" target="_blank"><i class="fa fa-google-plus" style="color: #000000"></i></a></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Closing Tags -->
+
+</body>
+</html>
