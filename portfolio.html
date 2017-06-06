@@ -20,6 +20,12 @@
 
 	<!-- CSS -->
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
+    
+    <!--this line links the lightbox style sheets (css) to this html page-->
+		<link rel="stylesheet" href="css/lightbox.css">
+    <!--these two lines link the lightbox (java) js scripts in the js folder to this html page-->
+    	<script src="js/jquery-1.11.0.min.js"></script>
+	       <script src="js/lightbox.js"></script>
 
   <!-- Font Awesome -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -102,8 +108,21 @@
 <div class="row">
 	<div class="col-md-4 col-sm-4 col-xs-6 col-lg-3">
 	  <div class="product-container">
-	    <div> <a href="Products-1.html">
-	    	<img class="putnam" src="images/putnam.png" class="img-responsive" width="100%"></a>
+	    <div>
+            <a class="example-image-link" href="images/VM.png" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="thumb/VM.png" alt=""/></a>&nbsp;
+	    </div> 
+	  </div>
+	</div>
+    <div class="col-md-4 col-sm-4 col-xs-6 col-lg-3">       
+  <div class="product-container">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </div>
+</div>
+	<div class="col-md-4 col-sm-4 col-xs-6 col-lg-3">
+	  <div class="product-container">
+	    <div>    
+            <img class="putnam" src="images/putnam.png" class="img-responsive" width="100%">
 	    </div> 
 	  </div>
 	</div>
@@ -114,8 +133,8 @@
 </div>
 	<div class="col-md-4 col-sm-4 col-xs-6 col-lg-3">
 	  <div class="product-container">
-	    <div> <a href="Products-1.html">
-	    	<img class="putnam" src="images/putnam.png" class="img-responsive" width="100%"></a>
+	    <div>
+	    	<img class="putnam" src="images/putnam.png" class="img-responsive" width="100%">
 	    </div> 
 	  </div>
 	</div>
@@ -126,8 +145,8 @@
 </div>
 	<div class="col-md-4 col-sm-4 col-xs-6 col-lg-3">
 	  <div class="product-container">
-	    <div> <a href="Products-1.html">
-	    	<img class="putnam" src="images/putnam.png" class="img-responsive" width="100%"></a>
+	    <div>
+	    	<img class="putnam" src="images/putnam.png" class="img-responsive" width="100%">
 	    </div> 
 	  </div>
 	</div>
@@ -138,8 +157,8 @@
 </div>
 	<div class="col-md-4 col-sm-4 col-xs-6 col-lg-3">
 	  <div class="product-container">
-	    <div> <a href="Products-1.html">
-	    	<img class="putnam" src="images/putnam.png" class="img-responsive" width="100%"></a>
+	    <div>
+	    	<img class="putnam" src="images/putnam.png" class="img-responsive" width="100%">
 	    </div> 
 	  </div>
 	</div>
@@ -150,8 +169,8 @@
 </div>
 	<div class="col-md-4 col-sm-4 col-xs-6 col-lg-3">
 	  <div class="product-container">
-	    <div> <a href="Products-1.html">
-	    	<img class="putnam" src="images/putnam.png" class="img-responsive" width="100%"></a>
+	    <div>
+	    	<img class="putnam" src="images/putnam.png" class="img-responsive" width="100%">
 	    </div> 
 	  </div>
 	</div>
@@ -159,19 +178,6 @@
   <div class="product-container">
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </div>
-</div>
-	<div class="col-md-4 col-sm-4 col-xs-6 col-lg-3">
-	  <div class="product-container">
-	    <div> <a href="Products-1.html">
-	    	<img class="putnam" src="images/putnam.png" class="img-responsive" width="100%"></a>
-	    </div> 
-	  </div>
-	</div>
-	<div class="col-md-4 col-sm-4 col-xs-6 col-lg-3">
-  <div class="product-container">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  </div>
-</div>
 </div>
 </div>
 </div>
@@ -191,10 +197,11 @@
       </div>
 
       <div class="col-lg-6 col-xs-4">
-        <div class="footer-social"><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" style="color: #000000"></i></a></div>
+        <div class="footer-social"><a href="https://twitter.com/RealFreshwater?lang=en-gb" target="_blank"><i class="fa fa-twitter" style="color: #000000"></i></a></div>
         <div class="footer-social"><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook" style="color: #000000"></i></a></div>
         <div class="footer-social"><a href="https://www.pinterest.com" target="_blank"><i class="fa fa-pinterest"  style="color: #000000"></i></a></div>
         <div class="footer-social"><a href="https://www.plus.google.com" target="_blank"><i class="fa fa-google-plus" style="color: #000000"></i></a></div>
+        <div class="footer-social"><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube" style="color: #000000"></i></a></div>
       </div>
 
     </div>

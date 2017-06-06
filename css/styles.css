@@ -86,7 +86,6 @@
 .img-border-radius {
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
-
 }
 .usp-bg {
 	background-color: #233356;
@@ -98,15 +97,6 @@
 	display: table;
 	margin-top: 30px;
 	margin-bottom: 30px;
-}
-.usp-img {
-	vertical-align: middle;
-	display: table-cell;
-}
-.usp-text {
-	vertical-align: middle;
-	display: table-cell;
-	color: #FFFFFF;
 }
 .review-container {
 	text-align: center;
@@ -154,25 +144,14 @@
 }
 .product-bg {
 	margin-bottom: 30px;
-}.product-title {
+}
+.product-title {
 	font-size: 22px;
 	margin-top: 30px;
 	margin-bottom: 10px;
 }
-.product-price {
-	width: 25%;
-	text-align: right;
-	float: right;
-}
 .product-desc {
 	margin-bottom: 30px;
-}
-.product-purcahse {
-	float: left;
-	margin-right: 20px;
-}
-.product-button {
-	margin-left: 20px;
 }
 
 .product-img-rec {
@@ -216,12 +195,23 @@
 .txt-black {
 	color: rgba(0,0,0,1.00);
 }
-.product-container-gap {
+.container-gap {
 	margin-bottom: 30px;
 }
-.product-button-container {
-	margin-bottom: 20px;
-}
 @charset "utf-8";
+
+/*This is for the format of the table*/
+
+}
+table{
+width:600px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+} 
+th, td{
+    padding: 15px;
+    color:#FFFFFF;
+}
+
 /* CSS Document */
 
