@@ -216,5 +216,11 @@ th, td{
 h1{
 	font-size: 25px;
 }
+
+.aboutme{
+	padding-top: 20px;
+	color: white;
+	}
+.aboutme a {color:white}
 /* CSS Document */
 
